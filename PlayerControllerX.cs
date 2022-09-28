@@ -2,14 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlayerControllerX : MonoBehaviour
-{
-    public float speed;
-    public float rotationSpeed;
-    public float verticalInput;
-    //public GameObject Propeller;
-    public GameObject Player;
-    Vector3 originalPos;
+
 
     // Start is called before the first frame update
     void Start()
