@@ -8,19 +8,6 @@ public class FollowPlayerX : MonoBehaviour
     //private Vector3 offset = new Vector3(26.76f,2.12f, -23.33f);
     Vector3 originalCamPos;
 
-    // Start is called before the first frame update
-    void Start()
-    {
-        originalCamPos = gameObject.transform.position;
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        transform.position = Player.transform.position + originalCamPos;
-    }
-}*/
-{
     public Transform targetObject; 
     private Vector3 initalOffset;
     private Vector3 cameraPosition;
