@@ -18,7 +18,7 @@ public class PlayerControllerX : MonoBehaviour
         originalPos = gameObject.transform.position;
     }
 
-    // Update is called once per frame
+   /*  // Update is called once per frame
     void FixedUpdate()
     {
         // get the user's vertical input
@@ -46,5 +46,5 @@ public class PlayerControllerX : MonoBehaviour
         {
             transform.position = originalPos;
         }
-    }
+    } */
 }
